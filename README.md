@@ -1,4 +1,4 @@
-#VSCode DevContaier for Flex PDK Developemt 
+# VSCode DevContaier for Flex PDK Developemt 
 
 ## Prerequisites: 
   - Visual Studio Code
