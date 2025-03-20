@@ -1,0 +1,20 @@
+{
+    "name": "Flex Gateway PDK Development",
+    "build": {
+      "dockerfile": "../Dockerfile"
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "forwardPorts": [],
+    "portsAttributes": {},
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "rust-lang.rust-analyzer"
+        ]
+      }
+    },
+    "postCreateCommand": "echo 'Development environment ready!'",
+    "remoteUser": "root"
+  }
